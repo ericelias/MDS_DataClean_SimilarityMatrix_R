@@ -1,4 +1,5 @@
 library(dplyr)
+library(tidyr)
 
 df <-read.csv("/Users/EricElias/Desktop/MDS_R_Code/RawMDSStudy2.csv", header=TRUE)
 FaceCodes <- read.csv("/Users/EricElias/Desktop/MDS_R_Code/MDSFaceCodes.csv", header = FALSE)
